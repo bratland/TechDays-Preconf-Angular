@@ -1,0 +1,20 @@
+﻿    <script src="Scripts/jquery.signalR-2.0.2.min.js"></script>
+    <script src="signalr/hubs"></script>
+
+
+	app.MapSignalR();
+
+var hub = $.connection.cakeHub;
+$.connection.hub.start();
+           
+hub.client.addOrder = function (order) {
+	$scope.orders.push(order);
+	$scope.$apply();               
+};
+
+
+var hub = $.connection.cakeHub;
+$.connection.hub.start();
+$scope.orderAdded = function() {
+    hub.server.AddOrder($scope.order);
+});

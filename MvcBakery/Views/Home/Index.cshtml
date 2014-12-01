@@ -1,0 +1,14 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<section ng-controller="cakeCtrl">
+        
+    <featured-cake ng-model="featured"></featured-cake>
+    <div class="row">
+        <div class="col-sm-4 " ng-repeat="product in products">
+            <cake ng-model="product"></cake>
+        </div>
+    </div>
+
+</section>

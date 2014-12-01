@@ -1,0 +1,98 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30324.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tartfabriken.HB.Web", "Tartfabriken.HB.Web\Tartfabriken.HB.Web.csproj", "{A0D0E864-C4C9-4EF9-9E74-22EAFBCC53BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tartfabriken.HB.Lib", "Tartfabriken.HB.Lib\Tartfabriken.HB.Lib.csproj", "{A91B4F3F-050A-4CE9-A7D7-469B1E8B77CF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Azure", "Azure", "{7762B095-FCD5-4F4B-BD8B-F85C011A708F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{EBE62821-DF53-4059-81F4-CE54690FC2C1}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tartfabriken.HB.AzureLib", "Tartfabriken.HB.AzureLib\Tartfabriken.HB.AzureLib.csproj", "{A10C956E-8527-4426-849C-A17BAAD4DAE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tartfabriken.HB.WebJob", "Tartfabriken.HB.WebJob\Tartfabriken.HB.WebJob.csproj", "{056A90DD-73EE-4722-B14C-A7727D16E851}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tartfabriken.HB.AzureLib.IntegrationTests", "Tartfabriken.HB.AzureLib.IntegrationTests\Tartfabriken.HB.AzureLib.IntegrationTests.csproj", "{25CB0E37-62F4-405E-BE18-6D4AF950C4BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tartfabriken.HB.AzureLib.Tests", "Tartfabriken.HB.AzureLib.Tests\Tartfabriken.HB.AzureLib.Tests.csproj", "{93CDD31C-CE72-4B06-8FED-B11EEECF1CF7}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 7
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://magnus.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Tartfabriken.HB.Web\\Tartfabriken.HB.Web.csproj
+		SccProjectName1 = Tartfabriken.HB.Web
+		SccLocalPath1 = Tartfabriken.HB.Web
+		SccProjectUniqueName2 = Tartfabriken.HB.Lib\\Tartfabriken.HB.Lib.csproj
+		SccProjectName2 = Tartfabriken.HB.Lib
+		SccLocalPath2 = Tartfabriken.HB.Lib
+		SccProjectUniqueName3 = Tartfabriken.HB.AzureLib\\Tartfabriken.HB.AzureLib.csproj
+		SccProjectTopLevelParentUniqueName3 = Tartfabriken.HB.sln
+		SccProjectName3 = Tartfabriken.HB.AzureLib
+		SccLocalPath3 = Tartfabriken.HB.AzureLib
+		SccProjectUniqueName4 = Tartfabriken.HB.WebJob\\Tartfabriken.HB.WebJob.csproj
+		SccProjectTopLevelParentUniqueName4 = Tartfabriken.HB.sln
+		SccProjectName4 = Tartfabriken.HB.WebJob
+		SccLocalPath4 = Tartfabriken.HB.WebJob
+		SccProjectUniqueName5 = Tartfabriken.HB.AzureLib.IntegrationTests\\Tartfabriken.HB.AzureLib.IntegrationTests.csproj
+		SccProjectTopLevelParentUniqueName5 = Tartfabriken.HB.sln
+		SccProjectName5 = Tartfabriken.HB.AzureLib.IntegrationTests
+		SccLocalPath5 = Tartfabriken.HB.AzureLib.IntegrationTests
+		SccProjectUniqueName6 = Tartfabriken.HB.AzureLib.Tests\\Tartfabriken.HB.AzureLib.Tests.csproj
+		SccProjectTopLevelParentUniqueName6 = Tartfabriken.HB.sln
+		SccProjectName6 = Tartfabriken.HB.AzureLib.Tests
+		SccLocalPath6 = Tartfabriken.HB.AzureLib.Tests
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A0D0E864-C4C9-4EF9-9E74-22EAFBCC53BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0D0E864-C4C9-4EF9-9E74-22EAFBCC53BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0D0E864-C4C9-4EF9-9E74-22EAFBCC53BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0D0E864-C4C9-4EF9-9E74-22EAFBCC53BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A91B4F3F-050A-4CE9-A7D7-469B1E8B77CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A91B4F3F-050A-4CE9-A7D7-469B1E8B77CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A91B4F3F-050A-4CE9-A7D7-469B1E8B77CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A91B4F3F-050A-4CE9-A7D7-469B1E8B77CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A10C956E-8527-4426-849C-A17BAAD4DAE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A10C956E-8527-4426-849C-A17BAAD4DAE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A10C956E-8527-4426-849C-A17BAAD4DAE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A10C956E-8527-4426-849C-A17BAAD4DAE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{056A90DD-73EE-4722-B14C-A7727D16E851}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{056A90DD-73EE-4722-B14C-A7727D16E851}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{056A90DD-73EE-4722-B14C-A7727D16E851}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{056A90DD-73EE-4722-B14C-A7727D16E851}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25CB0E37-62F4-405E-BE18-6D4AF950C4BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25CB0E37-62F4-405E-BE18-6D4AF950C4BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25CB0E37-62F4-405E-BE18-6D4AF950C4BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25CB0E37-62F4-405E-BE18-6D4AF950C4BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93CDD31C-CE72-4B06-8FED-B11EEECF1CF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93CDD31C-CE72-4B06-8FED-B11EEECF1CF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93CDD31C-CE72-4B06-8FED-B11EEECF1CF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93CDD31C-CE72-4B06-8FED-B11EEECF1CF7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A10C956E-8527-4426-849C-A17BAAD4DAE5} = {7762B095-FCD5-4F4B-BD8B-F85C011A708F}
+		{056A90DD-73EE-4722-B14C-A7727D16E851} = {7762B095-FCD5-4F4B-BD8B-F85C011A708F}
+		{25CB0E37-62F4-405E-BE18-6D4AF950C4BE} = {7762B095-FCD5-4F4B-BD8B-F85C011A708F}
+		{93CDD31C-CE72-4B06-8FED-B11EEECF1CF7} = {7762B095-FCD5-4F4B-BD8B-F85C011A708F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.TransientFaultHandling.6.0.1304.0\lib\portable-net45+win+wp8;packages\EnterpriseLibrary.TransientFaultHandling.Data.6.0.1304.1\lib\NET45
+	EndGlobalSection
+EndGlobal

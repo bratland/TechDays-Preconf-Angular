@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{0CD2BBE0-DD7B-4ED9-87B7-5770B1639E84}"
+	ProjectSection(SolutionItems) = preProject
+		FinalBakery\.nuget\NuGet.Config = FinalBakery\.nuget\NuGet.Config
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		FinalBakery\.nuget\NuGet.exe = FinalBakery\.nuget\NuGet.exe
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		FinalBakery\.nuget\NuGet.targets = FinalBakery\.nuget\NuGet.targets
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcBakery", "MvcBakery\MvcBakery.csproj", "{16F68DAE-2E12-4EFD-942D-E5982551DFBD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhyMVVM", "WhyMVVM\WhyMVVM\WhyMVVM.csproj", "{5E66B49D-7F78-4D51-BACB-D5986CBDDAB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tartfabriken.HB.Web", "Tartfabriken.HB\Tartfabriken.HB.Web\Tartfabriken.HB.Web.csproj", "{A0D0E864-C4C9-4EF9-9E74-22EAFBCC53BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tartfabriken.HB.Lib", "Tartfabriken.HB\Tartfabriken.HB.Lib\Tartfabriken.HB.Lib.csproj", "{A91B4F3F-050A-4CE9-A7D7-469B1E8B77CF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{79660513-276E-4206-A324-60FF4C42F472}"
+	ProjectSection(SolutionItems) = preProject
+		Devsum14.pptx = Devsum14.pptx
+		Readme.txt = Readme.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication2", "WebApplication2\WebApplication2.csproj", "{850D64A9-B042-49B6-9762-C3B2FBC44A6F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{16F68DAE-2E12-4EFD-942D-E5982551DFBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16F68DAE-2E12-4EFD-942D-E5982551DFBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16F68DAE-2E12-4EFD-942D-E5982551DFBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16F68DAE-2E12-4EFD-942D-E5982551DFBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E66B49D-7F78-4D51-BACB-D5986CBDDAB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E66B49D-7F78-4D51-BACB-D5986CBDDAB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E66B49D-7F78-4D51-BACB-D5986CBDDAB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E66B49D-7F78-4D51-BACB-D5986CBDDAB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0D0E864-C4C9-4EF9-9E74-22EAFBCC53BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0D0E864-C4C9-4EF9-9E74-22EAFBCC53BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0D0E864-C4C9-4EF9-9E74-22EAFBCC53BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0D0E864-C4C9-4EF9-9E74-22EAFBCC53BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A91B4F3F-050A-4CE9-A7D7-469B1E8B77CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A91B4F3F-050A-4CE9-A7D7-469B1E8B77CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A91B4F3F-050A-4CE9-A7D7-469B1E8B77CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A91B4F3F-050A-4CE9-A7D7-469B1E8B77CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{850D64A9-B042-49B6-9762-C3B2FBC44A6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{850D64A9-B042-49B6-9762-C3B2FBC44A6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{850D64A9-B042-49B6-9762-C3B2FBC44A6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{850D64A9-B042-49B6-9762-C3B2FBC44A6F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

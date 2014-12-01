@@ -1,0 +1,13 @@
+﻿<div id="featuredProduct" class="jumbotron">
+    <img alt="Featured Product" ng-src="/Images/Products/{{product.ImageName}}" class="img-responsive" />
+    <div id="featuredProductInfo">
+        <div id="productInfo">
+            <h2>{{product.Name}}</h2>
+            <p class="price">${{product.Price}}</p>
+            <p class="description">{{product.Description}}</p>
+        </div>
+        <div id="callToAction">
+            <a class="btn btn-primary" href="/order/{{product.Id}}" title="Order {{product.Name}}">Order Now</a>
+        </div>
+    </div>
+</div>
